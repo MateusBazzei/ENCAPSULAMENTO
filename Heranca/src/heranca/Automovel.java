@@ -23,6 +23,14 @@ public class Automovel extends Terrestre{
             System.out.println("Capacidade: "+capacidade);
         }
     
+     public void imprimeDadosMoto(){
+            
+            System.out.println("-------Moto-------");         
+            System.out.println("Placa: "+ numplaca);
+            System.out.println("Número de rodas: "+numerorodas);
+            System.out.println("Capacidade: "+capacidade);
+        }
+    
     
     public String getNumplaca() {
         return numplaca;
