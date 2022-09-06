@@ -21,6 +21,8 @@ public class Heranca {
         carro.setNumerorodas(4);
         carro.setCapacidade(2);
         
+        
+        carro.imprimeDadosCarro();
     }
     
     

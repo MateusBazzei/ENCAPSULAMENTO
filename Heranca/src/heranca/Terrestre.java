@@ -10,7 +10,7 @@ package heranca;
  * @author mateus.bazzei
  */
 public class Terrestre extends Transporte{
-    private int numerorodas;
+    protected int numerorodas;
 
     public int getNumerorodas() {
         return numerorodas;
